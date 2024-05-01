@@ -91,9 +91,7 @@ body {
   font-weight: 700;
   background-image: url(../img/Rectangle.png);
   background-repeat: no-repeat;
-  background-position: top right;
-  max-width: 705px;
-  max-height: 427px;
+  background-position: 1490px -50px;
 }
 
 body, input, textarea, button {
@@ -110,7 +108,8 @@ header {
 }
 header .header-container {
   margin-top: 64px;
-  max-width: 1110px;
+  max-width: 1330px;
+  padding: 0px 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -124,6 +123,9 @@ header .header-container .header-nav .header-nav-ul {
        column-gap: 40px;
   align-items: center;
 }
+header .header-container .header-nav .header-nav-ul li:hover {
+  text-decoration: underline;
+}
 header .header-container .header-nav .header-nav-ul .login {
   font-weight: 700;
   font-size: 15px;
@@ -131,14 +133,27 @@ header .header-container .header-nav .header-nav-ul .login {
   text-align: right;
   color: rgba(36, 41, 66, 0.5);
 }
+header .header-container .header-nav .header-nav-ul .login:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(36, 41, 66, 0.5);
+}
 
 main {
   width: 100%;
+  display: flex;
+  -moz-column-gap: 157px;
+       column-gap: 157px;
 }
 main .main-container {
   margin-top: 162px;
+  max-width: 1470px;
+  padding: 0px 15px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 157px;
+       column-gap: 157px;
 }
 main .main-container .main-new {
   display: flex;
@@ -197,9 +212,17 @@ main .main-container .main-button button {
   text-align: center;
   color: #fff;
 }
+main .main-container .main-button button:hover {
+  background: rgba(255, 94, 94, 0.25);
+}
 main .main-container .main-button a {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.33em;
   color: rgba(36, 41, 66, 0.5);
+}
+main .main-svg {
+  margin-top: -100px;
+  max-width: 916px;
+  max-height: 445px;
 }/*# sourceMappingURL=style.css.map */
