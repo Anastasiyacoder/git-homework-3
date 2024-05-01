@@ -84,4 +84,22 @@ label {
 
 legend {
   display: block;
+}
+
+body {
+  font-family: "Barlow Condensed", sans-serif, "Barlow", sans-serif;
+  font-weight: 700;
+  background-image: url(../img/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  max-width: 705px;
+  max-height: 427px;
+}
+
+body, input, textarea, button {
+  font-family: "Barlow Condensed", sans-serif, "Barlow", sans-serif;
+}
+
+a {
+  color: inherit;
 }/*# sourceMappingURL=style.css.map */
