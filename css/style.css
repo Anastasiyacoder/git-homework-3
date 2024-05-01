@@ -237,8 +237,14 @@ main .main-svg {
   .main-container .main-info-first {
     margin-top: 60px;
   }
+  .main-container {
+    margin-bottom: 92px;
+  }
 }
 @media (max-width: 480px) {
+  .header-nav .header-nav-ul li, .point {
+    display: none;
+  }
   .btn-menu {
     display: flex;
     flex-direction: column;
