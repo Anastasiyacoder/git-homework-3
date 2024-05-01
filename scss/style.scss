@@ -1,10 +1,10 @@
 @import "./base";
 
 header{
-    width: 100%;
-    margin-left: auto;
+    width: 100%;    
     margin-right: auto;
      .header-container{
+        margin-top: 64px;
         max-width: 1110px;
         margin-left: auto;
         margin-right: auto;
@@ -26,7 +26,77 @@ header{
               }
           }
      }
-
-    
-
     }
+
+main{
+    width: 100%;
+
+    .main-container{
+         margin-top: 162px;
+   
+         margin-left: auto;
+         margin-right: auto;
+
+         .main-new{
+            display: flex;
+            column-gap: 15px;
+            align-items: center;
+            .new{
+                width: 48px;
+                height: 25px;
+                font-weight: 700;
+                font-size: 15px;
+                letter-spacing: 0.07em;
+                text-align: center;
+                color: #fff;
+                background: #242942;
+                border-radius: 12px;
+            }
+        p{
+            font-weight: 400;
+            font-size: 15px;
+            letter-spacing: 0.33em;
+            color: rgba(36, 41, 66,0.5);
+        }
+         }
+         .main-info{
+            padding: 20px 0px 64px;
+
+            h1{
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 100%;
+                color: #242942;
+                padding-bottom: 32px;
+            }
+            p{  max-width: 230px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 144%;
+                color: rgba(36, 41, 66,0.75);
+            }
+         }
+         .main-button{
+            display: flex;
+            column-gap: 24px;
+            align-items: center;
+            button{
+                border-radius: 5px;
+                width: 184px;
+                height: 48px;
+                background: #ff5e5e;
+                font-weight: 700;
+                font-size: 16px;
+                letter-spacing: 0.07em;
+                text-align: center;
+                color: #fff;
+            }
+            a{
+                font-weight: 400;
+                font-size: 15px;
+                letter-spacing: 0.33em;
+                color: rgba(36, 41, 66 ,0.5);
+            }
+         }
+    }
+}
