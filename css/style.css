@@ -225,4 +225,18 @@ main .main-svg {
   margin-top: -100px;
   max-width: 916px;
   max-height: 445px;
+}
+
+@media (max-width: 920px) {
+  .main-container {
+    flex-direction: column-reverse;
+  }
+  .main-container .main-info-first {
+    margin-top: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .header-nav-ul {
+    list-style: none;
+  }
 }/*# sourceMappingURL=style.css.map */

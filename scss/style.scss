@@ -128,3 +128,17 @@ main{
     
     }
 }
+
+@media (max-width:920px){
+    .main-container{
+        flex-direction: column-reverse;
+        .main-info-first{
+            margin-top: 60px;
+        }
+    }
+}
+@media (max-width:480px){
+    .header-nav-ul{
+        list-style: none;
+    }
+}
